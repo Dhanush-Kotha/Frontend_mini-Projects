@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="./style_2.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form class="form-container" action="https://www.google.com" target="_self">
+        <div class="form-title">
+            <h2>Create Your Account</h2>
+            <p>Join us and get started today</p>
+        </div>
+        <div class="form-field">
+            <label for="fullname">Full Name</label>
+            <div class="input-group">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" name="fullname" placeholder="Enter your full name" id="fullname" required />
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="email">Email Address</label>
+            <div class="input-group">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" placeholder="Enter your email address" id="email" required />
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="password">Password</label>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" placeholder="Enter your password" id="password" required />
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="confirmpassword">Confirm Password</label>
+            <div class="input-group">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="confirmpassword" placeholder="Enter your confirm password"
+                    id="confirmpassword" required />
+                <i class="fa-solid fa-eye"></i>
+            </div>
+        </div>
+        <div class="form-radio">
+            <label>Gender</label> <br />
+            <input type="radio" id="gmale" name="gender" value="male" />
+            <label for="gmale">Male</label>
+            <input type="radio" id="gfemale" name="gender" value="female" />
+            <label for="gfemale">Female</label>
+            <input type="radio" id="gother" name="gender" value="other" />
+            <label for="gother">Other</label>
+        </div>
+        <div class="form-field">
+            <label for="dob">Date of Birth</label>
+            <div class="input-group">
+                <i class="fa-regular fa-calendar-days"></i>
+                <input type="date" name="dob" placeholder="Enter your DOB" id="dob" required />
+            </div>
+        </div>
+        <div class="form-field">
+            <label for="country">Country</label>
+            <div class="input-group">
+                <i class="fa-solid fa-globe"></i>
+                <select id="country" name="country">
+                    <option>Select the Country</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>Dubai</option>
+                    <option>UK</option>
+                    <option>USA</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-text">
+            <label>Message</label>
+            <div class="input-group">
+                <textarea name="message"></textarea>
+            </div>
+        </div>
+        <div class="form-checkbox">
+            <input type="checkbox" required />I agree to the <a href="#">Terms of Service</a> and <a href="#">Privary
+                Policy</a>
+        </div>
+        <div class="form-field">
+            <button>Register</button>
+        </div>
+        <div class="login-link">
+            <p>Already have an account? <a href="#">Login</a></p>
+        </div>
+    </form>
+</body>
+</html>

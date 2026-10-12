@@ -1,0 +1,69 @@
+body {
+    background-image: url("C:\\Users\\hp\\Downloads\\mountain.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 20px;
+    border-radius: 10px;
+    color:aliceblue;
+    width: 25%;
+    margin: auto;
+};
+
+.form-title {
+    text-align: center;
+    line-height: 0.5;
+}
+
+.form-field {
+    margin: 10px 0px;
+}
+
+.input-group {
+    color:white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.input-group i{
+    color: white;
+    padding: 10px;
+}
+.input-group input, .input-group select, .input-group textarea {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.form-container a, .login-link a{
+    color:yellowgreen;
+    text-decoration: none;
+}
+
+.form-checkbox {
+    margin: 10px 0px;
+}
+
+.form-field button {
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-link {
+    text-align: center;
+}
+      

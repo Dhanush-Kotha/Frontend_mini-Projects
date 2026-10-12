@@ -1,2 +1,6 @@
-# Frontend-calculator-project
-A responsive calculator web application built using HTML, CSS, JavaScript. with DOM manipulation and event handling
+# Frontend_mini Projects
+
+1. A simple Calculator
+2. Google forms
+
+Built a simple web pages using HTML, CSS, and JavaScript.
